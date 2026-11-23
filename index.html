@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de CR7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Quiz de CR7 ⚽</h1>
+        <p>¿Cuánto sabes de Cristiano Ronaldo?</p>
+
+        <div class="informacion">
+            <span id="numeroPregunta">Pregunta 1 de 10</span>
+            <span id="puntaje">Puntos: 0</span>
+        </div>
+
+        <h2 id="temporizador">Tiempo: 60</h2>
+
+        <div class="tarjeta">
+
+            <h2 id="pregunta">Pregunta</h2>
+
+            <div id="opciones"></div>
+
+            <p id="mensaje" aria-live="polite"></p>
+
+        </div>
+
+        <button id="siguiente" disabled>Siguiente</button>
+
+        <div id="resultadoFinal"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
